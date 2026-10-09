@@ -1,0 +1,122 @@
+window.LUNA_PRODUCTS = [
+  {
+    id: 1,
+    name: "Gold Stud Earrings",
+    category: "studs",
+    price: 195,
+    originalPrice: 250,
+    rating: 4.8,
+    reviews: 342,
+    image: "https://images.unsplash.com/photo-1561803234-346f0d5405e2?w=400&h=400&fit=crop",
+    badge: "20% off",
+    description: "Classic gold stud earrings in 14k yellow gold, perfect for everyday wear."
+  },
+  {
+    id: 2,
+    name: "Diamond Hoop Earrings",
+    category: "hoops",
+    price: 425,
+    originalPrice: 550,
+    rating: 4.9,
+    reviews: 189,
+    image: "https://images.unsplash.com/photo-1593642634572-fb8cf8b7d230?w=400&h=400&fit=crop",
+    badge: "Best Seller",
+    description: "Sleek diamond-encrusted hoops in 18k white gold, 12mm width."
+  },
+  {
+    id: 3,
+    name: "Black Gold Drop Earrings",
+    category: "drops",
+    price: 375,
+    originalPrice: 450,
+    rating: 4.7,
+    reviews: 256,
+    image: "https://images.unsplash.com/photo-1600854128602-94f0730d1ee1?w=400&h=400&fit=crop",
+    badge: "New",
+    description: "Elegant black gold drop earrings with black diamonds, 3cm drop length."
+  },
+  {
+    id: 4,
+    name: "Pearl Accent Earrings",
+    category: "pearls",
+    price: 325,
+    originalPrice: 400,
+    rating: 4.6,
+    reviews: 198,
+    image: "https://images.unsplash.com/photo-1605103918413-3f0c6f451570?w=400&h=400&fit=crop",
+    badge: "Luxury",
+    description: "Freshwater pearl accents in rose gold setting, timeless elegance."
+  },
+  {
+    id: 5,
+    name: "Black Diamond Studs",
+    category: "studs",
+    price: 680,
+    originalPrice: 850,
+    rating: 5.0,
+    reviews: 89,
+    image: "https://images.unsplash.com/photo-1605272706526-21d978742f1d?w=400&h=400&fit=crop",
+    badge: "Premium",
+    description: "Black diamond studs in 18k white gold, VS clarity, G color."
+  },
+  {
+    id: 6,
+    name: "Gold Huggie Hoops",
+    category: "hoops",
+    price: 295,
+    originalPrice: 380,
+    rating: 4.8,
+    reviews: 412,
+    image: "https://images.unsplash.com/photo-1608651710315-2234ba51933f?w=400&h=400&fit=crop",
+    badge: "Popular",
+    description: "Micro huggie hoops, 8mm, polished finish, comfortable everyday wear."
+  },
+  {
+    id: 7,
+    name: "Oxidized Black Gold Earrings",
+    category: "drops",
+    price: 450,
+    originalPrice: 620,
+    rating: 4.9,
+    reviews: 317,
+    image: "https://images.unsplash.com/photo-1600854128602-94f0730d1ee1?w=400&h=400&fit=crop",
+    badge: "Exclusive",
+    description: "Hand-oxidized black gold finish with black diamond accents, statement piece."
+  },
+  {
+    id: 8,
+    name: "White Gold Pearl Drop",
+    category: "pearls",
+    price: 520,
+    originalPrice: 680,
+    rating: 4.7,
+    reviews: 167,
+    image: "https://images.unsplash.com/photo-1605103918413-3f0c6f451570?w=400&h=400&fit=crop",
+    badge: "Luxury",
+    description: "South Sea pearl drop in 18k white gold, 9mm pearl, luxury finish."
+  },
+  {
+    id: 9,
+    name: "Mixed Diamond Earrings",
+    category: "studs",
+    price: 750,
+    originalPrice: 950,
+    rating: 5.0,
+    reviews: 67,
+    image: "https://images.unsplash.com/photo-1605272706526-21d978742f1d?w=400&h=400&fit=crop",
+    badge: "Premium",
+    description: "Mixed cut diamonds in platinum setting, total 3.5ct, exceptional sparkle."
+  },
+  {
+    id: 10,
+    name: "Gold Threader Earrings",
+    category: "drops",
+    price: 315,
+    originalPrice: 395,
+    rating: 4.6,
+    reviews: 234,
+    image: "https://images.unsplash.com/photo-1608651710315-2234ba51933f?w=400&h=400&fit=crop",
+    badge: "Trendy",
+    description: "Delicate gold threader earrings, 6cm length, elegant movement."
+  }
+];

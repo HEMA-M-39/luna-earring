@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hema Luxury Storefront</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#" class="logo">HEMA</a>
+      <span class="curator-badge">From Hema</span>
+    </div>
+    <div class="navbar-right">
+      <button class="cart-btn" id="cart-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M9 18c-5 0-5-5 0-5s5 5 5 5"/><path d="M15 18c-5 0-5-5 0-5s5 5 5 5"/></svg>
+        <span class="cart-badge" id="cart-badge">0</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <header class="hero" id="hero">
+    <h1 class="hero-title">Discover Timeless Elegance</h1>
+    <p class="hero-subtitle">Curated collections from around the world, hand-selected by Hema</p>
+    <div class="hero-divider"/>
+  </header>
+
+  <!-- Category Filters -->
+  <section class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">All Collections</button>
+    <button class="filter-btn" data-filter="jewelry">Jewelry</button>
+    <button class="filter-btn" data-filter="textiles">Textiles</button>
+    <button class="filter-btn" data-filter="pottery">Pottery</button>
+    <button class="filter-btn" data-filter="accessories">Accessories</button>
+  </section>
+
+  <!-- Search and Sort -->
+  <section class="controls" id="controls">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Search products..." id="search-input">
+    </div>
+    <div class="sort-box">
+      <select class="sort-select" id="sort-select">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="newest">Newest</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <main class="product-grid-section">
+    <div class="product-grid" id="product-grid">
+      <!-- Products will be rendered by app.js -->
+    </div>
+  </main>
+
+  <!-- Quick-View Modal -->
+  <div class="modal" id="quick-view-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div class="modal-img-gallery" id="modal-img-gallery"></div>
+      <div class="modal-details" id="modal-details"></div>
+    </div>
+  </div>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="drawer-header">
+      <h2>Shopping Bag</h2>
+      <button class="drawer-close" id="drawer-close">&times;</button>
+    </div>
+    <div class="drawer-items" id="drawer-items"></div>
+    <div class="drawer-summary">
+      <div class="summary-row"><span>Subtotal</span><span class="summary-total" id="subtotal">$0.00</span></div>
+      <div class="summary-row"><span>Tax</span><span class="summary-tax" id="tax">$0.00</span></div>
+      <div class="summary-row"><span>Shipping</span><span class="summary-shipping" id="shipping">$0.00</span></div>
+      <hr>
+      <div class="summary-row total"><span>Total</span><span class="total-amount" id="total">$0.00</span></div>
+    </div>
+    <div class="drawer-actions">
+      <button class="btn-checkout" id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials-header">
+      <h2>Verified Customer Reviews</h2>
+    </div>
+    <div class="testimonials-grid" id="testimonials-grid">
+      <!-- Testimonials will be rendered by app.js -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class.footer-left>
+      <a href="#" class="logo-footer">HEMA</a>
+      <p class="footer-desc">Curated luxury collections hand-selected by Hema</p>
+    </div>
+    <div class="footer-links">
+      <nav>
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Hema Luxury Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
